@@ -1,9 +1,9 @@
+bool twoway = true;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
   Serial.setTimeout(10);
   pinMode(LED_BUILTIN, OUTPUT); // On board LED
-  bool twoway = True;
 }
 
 void loop() {

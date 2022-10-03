@@ -12,11 +12,11 @@ void loop() {
     String str = Serial.readStringUntil('\n');
     if (str == "on") {
       digitalWrite(LED_BUILTIN, HIGH);
-      if (twoway) Serial.write("Led is on")
+      if (twoway) Serial.write("Led is on");
     }
     if (str == "off") {
       digitalWrite(LED_BUILTIN, LOW);
-      if (twoway) Serial.write("Led is off")
+      if (twoway) Serial.write("Led is off");
     }
   }
 }
